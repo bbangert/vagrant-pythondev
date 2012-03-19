@@ -12,12 +12,12 @@ Installing
 2. Install Virtualbox: http://www.virtualbox.org/wiki/Downloads
 3. Install the box VM used:
 
-   .. code-block:: bash
+   .. 
 
        $ vagrant box add lucid64 http://files.vagrantup.com/lucid64.box
 4. Clone the repo, edit Vagrantfile as needed, and run!
 
-   .. code-block:: bash
+   ..
 
        $ git clone git://github.com/bbangert/vagrant-pythondev.git ossdev
        $ cd ossdev
