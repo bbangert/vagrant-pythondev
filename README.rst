@@ -20,4 +20,15 @@ Installing
        $ vim ossdev/manifests/pythondev.pp  # Edit as needed for desired python version
        $ vagrant up
 
+Using
+=====
+
+Once its all setup, you can enter the box via::
+
+    $ vagrant ssh
+
+By default, vagrant will mount the ossdev directory as /vagrant in the VM, so you
+can checkout and run code there if you need access to it from the native environment.
+
+
 Feel free to file issues if these instructions don't work for you.
