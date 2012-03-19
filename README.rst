@@ -13,9 +13,8 @@ Installing
 3. Install the box VM used::
 
        $ vagrant box add lucid64 http://files.vagrantup.com/lucid64.box
-4. Clone the repo, edit Vagrantfile as needed, and run!
+4. Clone the repo, edit Vagrantfile as needed, and run!::
 
-   ::
        $ git clone git://github.com/bbangert/vagrant-pythondev.git ossdev
        $ cd ossdev
        $ vim ossdev/manifests/pythondev.pp  # Edit as needed for desired python version
