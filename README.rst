@@ -41,6 +41,15 @@ Once its all setup, you can enter the box via::
 By default, vagrant will mount the ossdev directory as /vagrant in the VM, so you
 can checkout and run code there if you need access to it from the native environment.
 
+On OSX and linux systems, NFS generally performs better and requires the hostonly
+networking option, which can be added to the Vagrantfile config like so::
+
+    config.vm.network :hostonly, "192.168.20.2"
+    config.vm.share_folder "MOUNT_NAME", "/home/vagrant/MOUNT_DIR", "/PATH/TO/DIR/ON/HOST", :nfs => true
+
+Then you can access all the files on your native system easily from within the
+VM.
+
 More Vagrantfile configuration options: http://vagrantup.com/docs/vagrantfile.html
 
 Feel free to file issues if these instructions don't work for you.
