@@ -38,5 +38,6 @@ Once its all setup, you can enter the box via::
 By default, vagrant will mount the ossdev directory as /vagrant in the VM, so you
 can checkout and run code there if you need access to it from the native environment.
 
+More Vagrantfile configuration options: http://vagrantup.com/docs/vagrantfile.html
 
 Feel free to file issues if these instructions don't work for you.
