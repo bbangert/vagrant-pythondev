@@ -3,7 +3,10 @@ Vagrant Python-dev Setup
 ========================
 
 This vagrant build is aimed at making it easy to get a full Python development environment setup on
-a debian based machine (lucid64 in this case). 
+your computer, regardless of what operating system you run with minimal fuss. To accomplish this,
+vagrant is used to control a virtual machine runner called `Virtual Box`_, which sets up a debian
+based VM on your machine (Ubuntu 10.04 in this case), and provisions it with a few goodies and your
+choice of Python versions to make life easy.
 
 Installing
 ==========
@@ -41,3 +44,6 @@ can checkout and run code there if you need access to it from the native environ
 More Vagrantfile configuration options: http://vagrantup.com/docs/vagrantfile.html
 
 Feel free to file issues if these instructions don't work for you.
+
+.. _Virtual Box: https://www.virtualbox.org/
+
