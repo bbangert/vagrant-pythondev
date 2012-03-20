@@ -13,7 +13,7 @@ Installing
 
 1. Install Vagrant: http://downloads.vagrantup.com/tags/v1.0.1
 2. Install Virtualbox (**do not install this in OSX Lion**): http://www.virtualbox.org/wiki/Downloads
-2.1. Install Virtualbox (**use this in Lion**): https://www.virtualbox.org/wiki/Download_Old_Builds_4_0
+2-1. Install Virtualbox (**use this in Lion**): https://www.virtualbox.org/wiki/Download_Old_Builds_4_0
 3. Install the box VM used::
 
        $ vagrant box add lucid64 http://files.vagrantup.com/lucid64.box
